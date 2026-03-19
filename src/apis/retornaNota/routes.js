@@ -6,10 +6,10 @@ router.get('/:id', (req, res) => {
   const id = Number(req.params.id);
 
   if (id === 1) {
-    return res.json({ usuarioRegistrado: true });
+    return res.json({ existeNota: true });
   }
 
-  return res.json({ usuarioRegistrado: false });
+  return res.json({ existeNota: false });
 });
 
 module.exports = router;
