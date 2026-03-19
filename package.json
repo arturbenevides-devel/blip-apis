@@ -1,0 +1,14 @@
+{
+  "name": "blip-apis",
+  "version": "1.0.0",
+  "description": "Monorepo de APIs mocadas para Render",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}
